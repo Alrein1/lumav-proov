@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@vue-storefront/magento-sdk": "^4.0.0",
+    "@vue-storefront/sdk": "^3.4.1",
     "nuxt": "^3.17.3",
     "vue": "^3.5.14",
     "vue-router": "^4.5.1"
