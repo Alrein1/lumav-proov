@@ -1,5 +1,19 @@
 <?php
 return [
+    'system' => [
+        'default' => [
+            'catalog' => [
+                'search' => [
+                    'engine' => 'elasticsearch8',
+                    'elasticsearch8_server_hostname' => 'elasticsearch',
+                    'elasticsearch8_server_port' => 9200,
+                    'elasticsearch8_index_prefix' => 'magento',
+                    'elasticsearch8_enable_auth' => 0,
+                ],
+            ],
+        ],
+    ],
+
     'backend' => [
         'frontName' => 'admin'
     ],
@@ -133,9 +147,10 @@ return [
         'translate' => 1
     ],
     'downloadable_domains' => [
-        'magento.test'
+        'magento.test',
+        'localhost'
     ],
     'install' => [
-        'date' => 'Tue, 20 May 2025 02:32:31 +0000'
+        'date' => 'Tue, 20 May 2025 17:16:10 +0000'
     ]
 ];
