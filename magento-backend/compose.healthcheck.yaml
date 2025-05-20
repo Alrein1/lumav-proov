@@ -26,8 +26,8 @@ services:
         condition: service_healthy
       rabbitmq:
         condition: service_healthy
-      #elasticsearch:
-      #  condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
 
   db:
     healthcheck:
@@ -47,10 +47,13 @@ services:
       retries: 5
       <<: *healthcheck-slow-start
 
-  #elasticsearch:
-  #  healthcheck:
-  #    test: "curl --fail elasticsearch:9200/_cat/health >/dev/null || exit 1"
-  #    <<: *healthcheck-slow-start
+  elasticsearch:
+    healthcheck:
+      test: "curl --fail elasticsearch:9200/_cat/health >/dev/null || exit 1"
+      interval: 30s
+      timeout: 30s
+      retries: 5
+      <<: *healthcheck-slow-start
 
   rabbitmq:
     healthcheck:
