@@ -1,5 +1,19 @@
 <?php
 return [
+    'system' => [
+        'default' => [
+            'catalog' => [
+                'search' => [
+                    'engine' => 'elasticsearch8',
+                    'elasticsearch8_server_hostname' => 'elasticsearch',
+                    'elasticsearch8_server_port' => 9200,
+                    'elasticsearch8_index_prefix' => 'magento',
+                    'elasticsearch8_enable_auth' => 0,
+                ],
+            ],
+        ],
+    ],
+
     'backend' => [
         'frontName' => 'admin'
     ],
