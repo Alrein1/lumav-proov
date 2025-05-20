@@ -39,13 +39,13 @@ services:
       test: "redis-cli ping || exit 1"
       <<: *healthcheck-slow-start
 
-  opensearch:
-    healthcheck:
-      test: "curl --fail opensearch:9200/_cat/health >/dev/null || exit 1"
-      interval: 30s
-      timeout: 30s
-      retries: 5
-      <<: *healthcheck-slow-start
+  #opensearch:
+    #healthcheck:
+      #test: "curl --fail opensearch:9200/_cat/health >/dev/null || exit 1"
+      #interval: 30s
+      #timeout: 30s
+      #retries: 5
+      #<<: *healthcheck-slow-start
 
   elasticsearch:
     healthcheck:
