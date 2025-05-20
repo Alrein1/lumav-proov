@@ -1,0 +1,10 @@
+{
+  "type":"module",
+  "scripts": {
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED=0 node middleware.js"
+  },
+  "dependencies": {
+    "@vue-storefront/magento-api": "^6.3.0",
+    "@vue-storefront/middleware": "^5.4.0"
+  }
+}
