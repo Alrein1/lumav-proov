@@ -133,9 +133,10 @@ return [
         'translate' => 1
     ],
     'downloadable_domains' => [
-        'magento.test'
+        'magento.test',
+        'localhost'
     ],
     'install' => [
-        'date' => 'Tue, 20 May 2025 02:32:31 +0000'
+        'date' => 'Tue, 20 May 2025 17:16:10 +0000'
     ]
 ];
