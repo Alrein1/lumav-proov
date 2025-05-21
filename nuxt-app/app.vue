@@ -1,8 +1,6 @@
 <template>
-  <CategoryList />
+  <NuxtPage />
 </template>
 
-<script setup>
-  import ProductSearch from './components/CategoryList.vue';
-
+<script setup> 
 </script>
