@@ -36,7 +36,7 @@ export const integrations = {
       magentoApiEndpoint: process.env.VSF_MAGENTO_GRAPHQL_URL,
       imageProvider: process.env.NUXT_IMAGE_PROVIDER,
       recaptcha: {
-        isEnabled: process.env.VSF_RECAPTCHA_ENABLED === "true",
+        isEnabled: process.env.VSF_RECAPTCHA_ENABLED === "false",
         sitekey: process.env.VSF_RECAPTCHA_SITE_KEY,
         secretkey: process.env.VSF_RECAPTCHA_SECRET_KEY,
         version: process.env.VSF_RECAPTCHA_VERSION,

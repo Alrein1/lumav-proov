@@ -13,6 +13,7 @@
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@tailwindcss/postcss": "^4.1.7",
     "@tailwindcss/vite": "^4.1.7",
+    "@vue-storefront/magento-api": "^6.3.0",
     "@vue-storefront/magento-sdk": "^4.0.0",
     "@vue-storefront/sdk": "^3.4.1",
     "autoprefixer": "^10.4.21",

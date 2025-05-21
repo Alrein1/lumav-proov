@@ -1,7 +1,6 @@
 <template>
-  <WeatherWidget />
+  <NuxtPage />
 </template>
 
-<script>
-
+<script setup> 
 </script>
