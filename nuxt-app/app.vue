@@ -1,7 +1,8 @@
 <template>
-  <WeatherWidget />
+  <CategoryList />
 </template>
 
-<script>
+<script setup>
+  import ProductSearch from './components/CategoryList.vue';
 
 </script>

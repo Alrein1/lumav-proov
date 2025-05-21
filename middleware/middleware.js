@@ -13,7 +13,7 @@ import { integrations } from "./middleware.config.js";
 
   const app = await createServer({
     integrations,
-    middleware: [corsMiddleware], // <-- pass your middleware here
+    middleware: [corsMiddleware],
   });
 
   const host = process.argv[2] ?? "0.0.0.0";
