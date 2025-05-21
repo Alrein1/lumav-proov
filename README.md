@@ -1,5 +1,5 @@
 # Kirjeldus
-Magento, Alokai ja Nuxt põhine rakendus. Koosneb kahest vidinast 1) kuvab hetke temperatuuri otsitavas linnas (OpenWeatherAPI), 2) kuvab kõik magento platvormile lisatud kategooriad (sample data, kuvamakas middleware-i toimimist)
+Magento, Alokai ja Nuxt+vue põhine rakendus. Koosneb kahest vidinast 1) kuvab hetke temperatuuri otsitavas linnas (OpenWeatherAPI), 2) kuvab kõik magento platvormile lisatud kategooriad (sample data, kuvamakas middleware-i toimimist)
 
 #Installeerimine
 ### Nõudmised:
